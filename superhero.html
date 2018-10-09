@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>super hero form</title>
+	<link rel="stylesheet" type="text/css" href="superhero.css">
+</head>
+<body>
+<section class="container">
+  <h1>she codes;</h1>
+  <h2>Super hero league</h2>
+<div class="panel panel-default">
+  <div class="panel-heading">Signup form</div>
+  <div class="panel-body">
+  <form>
+  <div class="form-group">
+    <label for="name">SuperHero Name: </label>
+    <input type="text" id="name" class="form-control" placeholder="Please enter your name" required autocomplete>
+  </div>
+  <div class="form-group">
+    <label for="email">SuperHero Email:</label>
+    <input type="email" id="email" class="form-control" placeholder="Please enter your email" required autocomplete>
+  </div>
+  <div class="form-group">
+    <label for="Age">SuperHero Age:</label>
+    <input type="number" id="Age" min=16 max=120 class="form-control" required>
+  </div>
+    <div class="form-group">
+      <label for="branch">Headquarters:</label> 
+      <input list="branches" id="branch" placeholder="Please choose your branch" required>
+      <datalist id="branches">
+        <option value="Beer-sheva">Beer-sheva</option>
+        <option value="Haifa">Haifa</option>
+        <option value="Modi'in">Modi'in</option>
+        <option value="Tel-Aviv">Tel-Aviv</option>
+      </datalist>
+    </div>
+    <p>Super powers:</p>
+    <div class="form-group">
+      <input type="checkbox" id="power1"> 
+      <label for="power1"> Coding super fast </label> <br/>
+      <input type="checkbox" id="power2"> 
+      <label for="power2">Designing like a pro</label><br/>
+      <input type="checkbox" id="power3"> 
+      <label for="power3">Learning really hard</label>
+    </div>
+    <p>Religon:</p>
+    <div class="form-group">
+      <input type="radio" name="Religon" id="religon1"> 
+      <label for="religon1"> Jewish </label> <br/>
+      <input type="radio" name="Religon" id="religon2"> 
+      <label for="religon2"> Muslim </label> <br/>
+      <input type="radio" name="Religon" id="religon3"> 
+      <label for="religon3"> Christian </label> <br/>
+      <input type="radio" name="Religon" id="religon4"> 
+      <label for="religon4"> Other </label> <br/>
+    </div>
+    <div class="form-group">
+    	<p>Why do you want to join shecodes?</p>
+    	<textarea name="message" rows="10" cols="30">
+		</textarea>
+	</div>
+    <div class="form-group">
+      <button class="btn btn-primary" id="submitBtn">Submit</button>
+    </div>
+  </form>
+  </div>
+</div>
+</section>
+	<canvas id="myCanvas" resize></canvas>
+
+</body>
+</html>
