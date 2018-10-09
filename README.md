@@ -1,6 +1,9 @@
 # SheCodesSuperHero
 Exercise from SheCodes: build a registration form for super heroes
 
+Link:
+http://htmlpreview.github.io/?https://github.com/MeitalGuy/SheCodesSuperHero/blob/master/superhero.html
+
 Based on this:
 https://codepen.io/anon/pen/OgjYZJ
 
